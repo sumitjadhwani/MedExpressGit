@@ -20,9 +20,7 @@
         	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
         <style>
-            body
-            {              
-            }
+           
             tr td
             {
                 padding-bottom:5px;  
@@ -140,7 +138,7 @@ xmlHttp.send(null);
      if(xmlHttp.readyState==4 || xmlHttp.readyState=="complete") {  
     
 	var x=xmlHttp.responseText;
-     x=x.replace(/(\r\n|\n|\r)/gm, "").trim();
+    x=x.replace(/(\r\n|\n|\r)/gm, "").trim();
     var res = x.split(" ");
     document.getElementById("drug_id").value=res[0];
     document.getElementById("name").value=res[3];

@@ -3,8 +3,7 @@
   <display-name>login</display-name>
 <servlet>
 	<servlet-name>abc</servlet-name>
-	<servlet-class>com.sumit.Login</servlet-class>
-	
+	<servlet-class>com.sumit.Login</servlet-class>	
 </servlet>
 <servlet-mapping>
 	<servlet-name>abc</servlet-name>

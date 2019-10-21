@@ -63,7 +63,7 @@
                     <h3 class="h6 text-uppercase mb-0">Add Employee</h3>
                   </div>
                   <div class="card-body">                             
-                    <form method="post" action="addemployee1.jsp" autocomplete="off"  >
+               <form method="post" action="addemployee1.jsp" autocomplete="off"  >
                       <div class="form-group">
                         <label class="form-control-label text-uppercase" style="font-size:15px" >Employee ID</label>
                         <input type="text" placeholder="eg.1000" class="form-control" name="emp_id">
@@ -99,8 +99,7 @@
                       </div>
                       </center>
                     </form>
-                    
-                    
+                                       
                     
                   </div>
                 </div>

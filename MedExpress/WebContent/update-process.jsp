@@ -35,9 +35,9 @@ ps.setString(6, packaging);
 int i = ps.executeUpdate();
 if(i > 0)
 {
-out.print("                  Record Updated Successfully");
+out.print("Record Updated Successfully");
 %>
-<meta http-equiv="refresh" content="2;url=UpdateMedicine.jsp"/>
+	<meta http-equiv="refresh" content="2;url=UpdateMedicine.jsp"/>
 <%
 }
 else

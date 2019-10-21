@@ -98,7 +98,7 @@ while(resultSet.next()){
                     <h3 class="h6 text-uppercase mb-0">Update Drug</h3>
                   </div>
                   <div class="card-body">
-                    <form class="form-horizontal" method="post" action="update-process.jsp" >
+          <form class="form-horizontal" method="post" action="update-process.jsp" >
                       <div class="form-group row">
                         <label class="col-md-3 form-control-label" style="font-size:15px">Drug ID</label>
                         <div class="col-md-9">
@@ -137,14 +137,6 @@ while(resultSet.next()){
                         </div>
                       </div>
                       
-                      
-                    <%--   <div class="line"></div>
-                      <div class="form-group row">
-                        <label class="col-md-3 form-control-label"style="font-size:15px">Total Stock</label>
-                        <div class="col-md-9">
-                          <input type="number"  name="tot_stock" class="form-control" value="<%=resultSet.getString("tot_stock") %>">
-                        </div>
-                      </div> --%>
                               
                      <div class="line"></div>
                       <div class="form-group row">
@@ -169,8 +161,7 @@ while(resultSet.next()){
                         </center>
                         </form>
                         </div>
-                             
-                        
+                                                  
                                                 
     <!-- JavaScript files-->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -182,24 +173,6 @@ while(resultSet.next()){
     <script src="js/front.js"></script>
  
 
-<%-- <form method="post" action="update-process.jsp">
-<input type="hidden" name="drug_id" value="<%=resultSet.getString("drug_id") %>">
-<input type="text" name="drug_id" value="<%=resultSet.getString("drug_id") %>">
-<br>
-Drug ID:<br>
-<input type="number" name="drug_id" value="<%=resultSet.getString("drug_id") %>">
-<br>
-Drug name:<br>
-<input type="text" name="drug_name" value="<%=resultSet.getString("drug_name") %>">
-<br>
-Batch ID:<br>
-<input type="number" name="batch_id" value="<%=resultSet.getString("batch_id") %>">
-<br>
-Location:<br>
-<input type="text" name="location" value="<%=resultSet.getString("location") %>">
-<br><br>
-<input type="submit" value="submit">
-</form> --%>
 <%
 }
 connection.close();

@@ -30,7 +30,7 @@ public class Login extends HttpServlet{
 			 * session.setAttribute("userid", userid);
 			 */		        //out.println("welcome " + userid);
 		        //out.println("<a href='logout.jsp'>Log out</a>");
-		        res.sendRedirect("index.jsp?name="+userid);
+		        res.sendRedirect("index.jsp");
 		    }
 		    else {
 		    	res.sendRedirect("login.jsp");

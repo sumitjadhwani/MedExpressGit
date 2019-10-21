@@ -89,7 +89,7 @@ ResultSet resultSet = null;
                     <h6 class="text-uppercase mb-0">Update Drug</h6>
                   </div>
                   <div class="card-body">                           
-                    <table class="table table-striped card-text">
+            <table class="table table-striped card-text">
                       <thead>
                         <tr>                         
                           <th>Drug ID</th>
